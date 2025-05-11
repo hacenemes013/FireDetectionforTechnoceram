@@ -3,11 +3,11 @@
 ---
 
 
- ##Fire Detection Using YOLOv8
+ ##F ire Detection Using YOLOv8
 
 This project uses the [Ultralytics YOLOv8](https://docs.ultralytics.com) model to detect **fire** in images. It sets up a YOLO-compatible dataset structure, trains a custom object detection model, and provides utilities for inference.
 
-Project Structure
+## Project Structure
 
 
 project/
@@ -70,7 +70,7 @@ train_yolo_model(model_size='n', epochs=50, batch_size=16, imgsz=640)
 * `batch_size`: Images per batch
 * `imgsz`: Input image size
 
-## 📦 Installation
+## Installation
 
 Make sure you have Python 3.8+ installed. Then install dependencies:
 
@@ -83,18 +83,6 @@ Or generate a `requirements.txt` with:
 ```bash
 pipreqs . --force
 pip install -r requirements.txt
-```
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🙋‍♂️ Contact
-
-For questions or suggestions, feel free to open an issue or fork the repo and contribute!
-
 ```
 
 ---
