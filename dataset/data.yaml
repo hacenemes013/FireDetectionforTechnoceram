@@ -1,0 +1,5 @@
+names:
+  0: fire
+path: D:\Technoceram Yolo fire detection\dataset
+train: images/train
+val: images/val
