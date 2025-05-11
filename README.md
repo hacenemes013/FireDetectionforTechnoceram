@@ -58,7 +58,7 @@ Uncomment and modify the following lines in `main.py` to test the model:
 # result[0].show()  # Show image with detections
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 You can customize training in the `train_yolo_model` function:
 
