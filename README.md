@@ -9,7 +9,7 @@ This project uses the [Ultralytics YOLOv8](https://docs.ultralytics.com) model t
 
 ## Project Structure
 
-
+```
 project/
 │
 ├── dataset/
@@ -23,17 +23,18 @@ project/
 ├── main.py             # Main training and inference script
 ├── requirements.txt    # Python dependencies (generate using pipreqs)
 └── README.md
+```
 
 
 
-## 🚀 Features
+##  Features
 
 - Auto-creates dataset directories and a YOLO-compatible `data.yaml`
 - Trains a YOLOv8 model on a custom fire dataset
 - Provides a prediction function to test the trained model
 - Runs on CPU by default
 
-## 🧠 Model Training
+##  Model Training
 
 To train the YOLOv8 model (e.g., YOLOv8n):
 
@@ -47,7 +48,7 @@ This will:
 * Generate `dataset/data.yaml`
 * Train a YOLOv8n model for 50 epochs
 
-## 📸 Inference Example
+##  Inference Example
 
 Uncomment and modify the following lines in `main.py` to test the model:
 
@@ -85,7 +86,4 @@ pipreqs . --force
 pip install -r requirements.txt
 ```
 
----
 
-Let me know if you'd like to add badges (build status, license, etc.) or adapt this for Colab or GPU support.
-```
