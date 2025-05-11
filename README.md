@@ -1,4 +1,4 @@
-Here’s a clean and professional `README.md` for your fire detection project using YOLOv8 and Ultralytics:
+
 
 ---
 
