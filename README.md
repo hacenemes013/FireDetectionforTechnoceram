@@ -2,8 +2,8 @@
 
 ---
 
-markdown
- Fire Detection Using YOLOv8
+
+ ##Fire Detection Using YOLOv8
 
 This project uses the [Ultralytics YOLOv8](https://docs.ultralytics.com) model to detect **fire** in images. It sets up a YOLO-compatible dataset structure, trains a custom object detection model, and provides utilities for inference.
 
